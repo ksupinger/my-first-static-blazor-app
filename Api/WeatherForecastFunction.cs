@@ -15,6 +15,7 @@ namespace Api
             _logger = loggerFactory.CreateLogger<HttpTrigger>();
         }
 
+// This is a simple HTTP trigger function that generates a list of weather forecasts for the next 5 days.
         [Function("WeatherForecast")]
         public HttpResponseData Run([HttpTrigger(AuthorizationLevel.Anonymous, "get")] HttpRequestData req)
         {
