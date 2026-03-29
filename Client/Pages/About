@@ -1,5 +1,4 @@
 @page "/about"
-@using BlueOCeanIOTMain.Components
 @attribute [AllowAnonymous]
 
 <h3>About the BlueOceanIOT<sup>&reg;</sup> main web site.</h3>
