@@ -57,7 +57,7 @@ body {
     margin: 0.3rem 10px;
 }
 
-@media (prefers-color-scheme: dark) {
+/* @media (prefers-color-scheme: dark) {
     body {
         background-color: #141414;
         color: #ddd;
@@ -65,5 +65,5 @@ body {
     a {
         color: #2caffe;
     }
-}
+} */
 
