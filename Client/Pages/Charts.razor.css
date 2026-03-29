@@ -10,7 +10,8 @@ body {
         "Segoe UI Emoji",
         "Segoe UI Symbol",
         sans-serif;
-    background: var(--highcharts-background-color);
+    /* background: var(--highcharts-background-color); */
+    background: #d3bbbb;
     color: var(--highcharts-neutral-color-100);
 }
 
