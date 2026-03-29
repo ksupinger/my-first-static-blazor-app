@@ -1,0 +1,17 @@
+@page "/about"
+@using BlueOCeanIOTMain.Components
+@attribute [AllowAnonymous]
+
+<h3>About the BlueOceanIOT<sup>&reg;</sup> main web site.</h3>
+
+<p>BlueOceanIOT<sup>&reg;</sup> was formed in Seattle in 2019. We became a NMEA2000 manufacture with a certified product. Just as COVID19 hit.</p>
+<p>Our missions was and is to create marine electronics. We design hardware and software to accomplish this. When we started we created products for ourselves and then later with other manufactures.</p>
+<p>Our hardware uses several types of micro controllers and encompasses advanced circuit design, PCB layout, assembly and firmware development.</p>
+<p>Software services range from Azure cloud to desktop, phone apps and firmware.</p>
+<p>Our goal is to develop and manufacture useful and unique user friendly devices.</p>
+<a href="https://www.linkedin.com/company/blueoceaniot/">LinkedIn company information</a>
+<a href="/"><img src="LinkedInHeader.png" width="80%" height="80%" alt="#"></a>
+<Footer/>
+@code {
+
+}
