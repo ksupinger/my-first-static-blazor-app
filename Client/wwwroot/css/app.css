@@ -101,3 +101,11 @@ a, .btn-link {
 code {
     color: #c02d76;
 }
+
+.footer {
+	position: fixed;
+/*	height: 30px;*/
+	bottom: 0px;
+	left: 250px;
+	background: #222;
+}
