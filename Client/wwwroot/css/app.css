@@ -110,3 +110,10 @@ code {
 	background: #222;
     width: 100%;
 }
+
+.container {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    height: 100%;
+}
