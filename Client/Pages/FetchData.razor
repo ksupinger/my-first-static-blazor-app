@@ -1,5 +1,6 @@
 ﻿@page "/fetchdata"
 @using BlazorApp.Shared 
+@using BlazorApp.Client.Components
 @inject HttpClient Http
 
 <PageTitle>Weather</PageTitle>
@@ -36,6 +37,7 @@ else
         </tbody>
     </table>
 }
+<Footer/>
 
 @code {
     private WeatherForecast[] forecasts = new WeatherForecast[]{};
