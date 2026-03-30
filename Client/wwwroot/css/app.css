@@ -112,7 +112,9 @@ code {
 }
 
 .container {
-    display: flex;
+    /* display: flex; */
+    	position: fixed;
+        	left: 250px;
     justify-content: left;
     align-items: center;
     height: 100%;
